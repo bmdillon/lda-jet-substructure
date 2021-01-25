@@ -1,5 +1,11 @@
 The code in this repository implements unsupervised jet substructure classification based on Latent Dirichlet Allocation.  The code was developed for the work in the paper "Uncovering latent jet substructure" by B. M. Dillon, D. A. Faroughy, J. F. Kamenik.  The arxiv link is https://arxiv.org/abs/1904.04200.
 
+%%%%%%%
+
+Update: We published a second paper "Learning the latent structure of collider events", https://arxiv.org/abs/2005.12319, the results in this paper can also be reproduced with simple modifications of the code in this repository.  We also contributed to the LHC Olympics Challenge using this LDA method, the community paper can be found at https://arxiv.org/abs/2101.08320.  The authors of these works are B. M. Dillon, D. A. Faroughy, J. F. Kamenik, M. Szewc.
+
+%%%%%%%
+
 The implementation here is simple in that:
  - there are only two topics: background and signal
  - only substructure observables at each splitting in the clustering history are used:
